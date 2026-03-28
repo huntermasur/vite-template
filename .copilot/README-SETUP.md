@@ -35,6 +35,7 @@ README.md                         ← replaces Vite's default
 ## After Degit
 
 1. Fill out `.copilot/project-brief.md` — this is what the agent reads before doing anything
-2. Populate `.copilot/references` - this is all of the detail you are passing to the agent
-3. Paste `.copilot/initial-prompt.md` as your first Copilot Chat message to kick off development
-4. Accept the recommended extensions prompt VS Code shows on first open
+2. Download any skills you need from skills.sh
+3. Populate `.copilot/references` - this is all of the detail you are passing to the agent
+4. Paste `.copilot/initial-prompt.md` as your first Copilot Chat message to kick off development
+5. Accept the recommended extensions prompt VS Code shows on first open
