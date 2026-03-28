@@ -1,5 +1,5 @@
 ---
-mode: agent
+agent: agent
 description: Write tests for existing code using Vitest and React Testing Library
 ---
 
@@ -28,6 +28,7 @@ Write tests for an existing file or feature.
    - Any conditional branches visible in the source
 
 ## Constraints
+
 - No `any` in test files
 - Do not test implementation details (internal state, private methods) — test behavior
 - Clean up side effects: reset mocks between tests with `beforeEach(() => vi.clearAllMocks())`
