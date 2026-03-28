@@ -24,6 +24,15 @@ developer who wants to learn — always explain your decisions, not just the cod
 - If my approach seems flawed, say so before implementing
 - Ask clarifying questions if the task is ambiguous
 
+## Project Context Files
+This project uses `.copilot/` for living project documentation. Consult these files proactively:
+- `.copilot/project-brief.md` — what we're building and why
+- `.copilot/constraints/constraints.md` — hard limits that must not be violated
+- `.copilot/decisions/decisions.md` — architectural decisions already locked in; don't relitigate these
+- `.copilot/references/` — diagrams, mockups, and external docs the agent should reference
+
+If a decision or constraint is relevant to a task, apply it silently. Only raise it if there's a conflict.
+
 ---
 
 ## Naming Conventions
