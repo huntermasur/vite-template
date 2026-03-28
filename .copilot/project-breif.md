@@ -22,7 +22,7 @@
 
 ## References
 <!-- Where are the files that the agent will need to see your vision? -->
-- 
+- Review all data in .copilot/references
 ---------------------------------------------------------------------
 
 ## Core Features
@@ -35,7 +35,7 @@
 - 
 ---------------------------------------------------------------------
 
-## Tech Stack
+## Tech Stack (if blank, decide yourself)
 <!-- Fill in what's decided. Leave blank if not yet chosen. -->
 
 - Frontend: Vite + 
